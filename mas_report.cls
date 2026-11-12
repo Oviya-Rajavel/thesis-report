@@ -69,6 +69,9 @@
 \usepackage{lipsum} % Used to test
 \usepackage{lmodern}%
 
+
+\usepackage{svg}
+
 \onehalfspacing
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Definitions

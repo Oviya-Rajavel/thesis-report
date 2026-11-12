@@ -3,11 +3,20 @@
 \begin{document}
     \chapter{Introduction}
 
-    \lipsum[1-5]
+User engagement (UE), or engagement, denotes the extent of a user’s interest, attention, and active involvement in a given task. For example, in a classroom setting, a teacher can assess a student’s engagement by observing behavioral cues such as attentiveness and expressed interest. In contrast, in a scenario where a robot serves as the instructor, the system may initially presume that the student is engaged \cite{chin2014impact} and proceed with a predefined teaching strategy. However, such an assumption can result in suboptimal learning outcomes if the student’s actual engagement level differs from this expectation. Hence, the robot needs to determine whether the student is engaged or not to enhance teaching efficiency. 
+
+For engagement estimation, previous work has employed a variety of approaches, including dynamic Bayesian networks, traditional machine learning techniques, and deep learning models. Recent studies indicate that transformer-based methods have achieved improved performance in this domain \cite{mandia2025transformer}.
+
+Transformers with their attention mechanism revolutionized sequential processing by enabling the models to capture long-range and global dependencies between inputs and outputs \cite{vaswani2017attention}. Prior to the introduction of the transformer architecture, recurrent neural networks (RNNs) and their variants were widely used for sequential modeling but these architectures often struggled with long-range dependencies. Transformers address these limitations by employing self-attention mechanisms \cite{vaswani2017attention}. Following their remarkable success in the field of Natural Language Processing (NLP), transformer architectures have been successfully extended to other domains, including computer vision, speech processing, and multi-modal learning \cite{jamil2023comprehensive}.
+
+In the domain of computer vision, ViT (Vision Transformer) a transformer-based architecture for images, was released in 2020 which has shown better performance than the convolutional neural networks and was able to overcome the inductive bias in the CNN \cite{jamil2023comprehensive}. Inductive bias refers to the pre-training assumptions, such as weight sharing (this bias assumes that the same feature detectors are useful throughout the image), local receptive fields (this bias is based on the belief that local features can represent meaningful patterns). Extending transformer architectures to video data has led to the development of Video Transformers (VT), which are designed to model both spatial and temporal information. VT model global dependencies by establishing all-to-all interactions across both spatial and temporal dimensions. This property enables them to effectively capture motion patterns, long-range temporal relationships, and dynamic variations in appearance throughout video sequences \cite{khan2022transformers}.
+
+In this project, we are focusing on ViT and VT for engagement estimation for the use case of robot-assisted language learning.
+
+
     \section{Motivation}
     \subsection{...}
 
-    \lipsum[6-10]
 
     \subsection{...}
 
@@ -15,7 +24,6 @@
     \section{Challenges and Difficulties}
     \subsection{...}
 
-    \lipsum[11-15]
 
     \subsection{...}
 
@@ -26,7 +34,6 @@
     \section{Problem Statement}
     \subsection{...}
 
-    \lipsum[21-30]
 
     \subsection{...}
 

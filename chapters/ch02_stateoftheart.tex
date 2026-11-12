@@ -3,7 +3,16 @@
 \begin{document}
     \chapter{State of the Art}
 
-    \section{....}
+    \section{Background}
+    \subsection{t-SNE}
+    \begin{itemize}
+        \item t-SNE (t-distributed Stochastic Neighbor Embedding) used to visualize high dimensional data in a low-dimensional space using unsupervised non-linear dimensionality reduction
+        \item Non-linear dimensionality reduction means that the algorithm allows us to separate data that cannot be separated by a straight line.
+        \item it focuses on preserving the pairwise similarities between data points in a lower-dimensional space
+        \item Uses gausian kernel to calculate the similarity (probability) between the selected pair of points
+        \item Main hyper paramter is perplexity it decides how many neighbours should each point pay attention to. low perplexity focus on local structure,high perplexity focus on broader neighborhoods
+        \item t-SNE takes the neighborhood relationships in a high-dimensional dataset, converts them into probabilities, creates a 2D/3D probability distribution using a heavy-tailed t-distribution, and uses gradient descent to make the two distributions as similar as possible.
+    \end{itemize}
     Use as many sections as you need in your related work to group content into logical groups
 
     Don't forget to correctly cite your sources \cite{art1}.
